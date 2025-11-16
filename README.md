@@ -104,5 +104,5 @@ Interactive filters allow analysis by gender, age group, category, season, and s
 
 ---
 
-## 7. Project Structure
+
 
