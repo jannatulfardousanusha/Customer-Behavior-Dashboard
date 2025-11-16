@@ -2,8 +2,9 @@
 
 A complete end-to-end data analysis project exploring customer shopping behavior using Python, SQL, and Power BI. This project is based on 3,900 purchase records and focuses on understanding spending trends, customer segments, product performance, and behavioral patterns.
 
+---
 
-1. Project Overview
+## 1. Project Overview
 This project analyzes customer shopping behavior across various demographics and product categories. The goal is to uncover insights related to:
 
 - Spending patterns  
@@ -14,8 +15,9 @@ This project analyzes customer shopping behavior across various demographics and
 
 The project includes data cleaning, SQL-based analysis using MySQL, and a final Power BI dashboard.
 
+---
 
-2. Dataset Summary
+## 2. Dataset Summary
 
 Dataset size:  
 - 3,900 rows  
@@ -30,27 +32,29 @@ Key features:
 Missing data:  
 - 37 missing values in the review_rating column (handled during preprocessing)
 
+---
 
-3. Exploratory Data Analysis (Python)
+## 3. Exploratory Data Analysis (Python)
 
-Data Cleaning and Preparation
+### Data Cleaning and Preparation
 - Loaded data with pandas  
 - Used df.info() and df.describe() for initial inspection  
 - Imputed missing review_rating using the median per category  
 - Standardized column names to snake_case  
 - Removed redundant column promo_code_used  
 
-Feature Engineering
+### Feature Engineering
 - Created age_group by binning ages  
 - Calculated purchase_frequency_days  
 - Ensured consistency between discount-related columns  
 
-MySQL Integration
+### MySQL Integration
 - Cleaned DataFrame exported into a MySQL database  
 - Used for structured SQL analysis  
 
+---
 
-4. SQL Analysis (Business Insights)
+## 4. SQL Analysis (Business Insights)
 
 Key business questions addressed through SQL:
 
@@ -65,8 +69,9 @@ Key business questions addressed through SQL:
 9. Subscription likelihood among repeat buyers  
 10. Revenue contribution by age group  
 
+---
 
-5. Power BI Dashboard
+## 5. Power BI Dashboard
 
 The Power BI dashboard includes:
 
@@ -80,18 +85,24 @@ The Power BI dashboard includes:
 
 Interactive filters allow analysis by gender, age group, category, season, and shipping type.
 
+---
 
-6. Key Insights and Recommendations
+## 6. Key Insights and Recommendations
 
-Business Recommendations
+### Business Recommendations
 - Increase subscription conversions by promoting unique benefits  
 - Implement loyalty programs to convert returning buyers into loyal customers  
 - Optimize discount strategy to maintain profitability  
 - Highlight top-rated and best-selling products in marketing campaigns  
 - Focus marketing efforts on high-value customer groups  
 
-Data Observations
+### Data Observations
 - Express shipping users tend to spend more  
 - Subscribers contribute significantly more revenue  
 - Discount usage varies across product categories  
-- Middle-aged groups are major contributors to total revenue 
+- Middle-aged groups are major contributors to total revenue  
+
+---
+
+## 7. Project Structure
+
