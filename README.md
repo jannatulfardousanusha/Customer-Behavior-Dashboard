@@ -104,5 +104,8 @@ Interactive filters allow analysis by gender, age group, category, season, and s
 
 ---
 
-### Screenshot of the dashboard:
-https://github.com/jannatulfardousanusha/Customer-Behavior-Dashboard/blob/main/customer_behavior_analysis.png
+### 6. Screenshots / Demos
+
+Show what the dashboard looks like. - ![alt text](https://github.com/username/repo/assets/image.png)
+
+Example: [![Dashboard Preview]()
